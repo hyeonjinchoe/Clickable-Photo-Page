@@ -1,0 +1,240 @@
+/*1.Some photos on your table*/
+
+/*index.html*/
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+		<title>My Photo Page</title>
+	</head>
+	<body></body>
+</html>
+
+
+/*stylesheet.css*/
+img {
+	width:100px;
+	height:100px;
+}
+
+table, td {
+	border: 1px #70b8ff dashed;
+}
+
+
+/*2.Row by row*/
+
+/*index.html*/
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+		<title>My Photo Page</title>
+	</head>
+	<body>
+	<table>
+    <tr>2<th>2</th><th>2</th><th></th></tr>
+    <tr><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td></tr>
+    </table>
+	</body>
+</html>
+
+/*stylesheet.css*/
+
+img {
+	width:100px;
+	height:100px;
+}
+
+table, td {
+	border: 1px #70b8ff dashed;
+}
+
+/*3.Cell by cell*/
+
+/*index.html*/
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+		<title>My Photo Page</title>
+	</head>
+	<body>
+	<table>
+    <tr>2<th>2</th><th>2</th><th></th></tr>
+    <tr><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td></tr>
+    </table>
+	</body>
+</html>
+
+/*stylesheet.css*/
+
+img {
+	width:100px;
+	height:100px;
+}
+
+table, td {
+	border: 1px #70b8ff dashed;
+}
+
+/*4.Remember: it's better with a header*/
+
+/*index.html*/
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+		<title>My Photo Page</title>
+	</head>
+	<body>
+	<table>
+     <thead>
+         <th>Header</th>
+     </thead>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+
+     </table>   
+	</body>
+</html>
+
+/*stylesheet.css*/
+
+img {
+	width:100px;
+	height:100px;
+}
+
+table, td {
+	border: 1px #70b8ff dashed;
+}
+
+/*5.Nine pictures are worth 9,000 words*/
+
+/*index.html*/
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+		<title>My Photo Page</title>
+	</head>
+	<body>
+	<table>
+     <thead>
+         <th>Header</th>
+     </thead>
+     <tr><img src="https://dannguyen.github.io/github-for-portfolios/images/lessons/1/github-user-page.png"/></tr>
+     <tr><img src="https://dannguyen.github.io/github-for-portfolios/images/lessons/1/github-user-page.png"/></tr>
+     <tr><img src="https://dannguyen.github.io/github-for-portfolios/images/lessons/1/github-user-page.png"/></tr>
+     <tr><img src="https://dannguyen.github.io/github-for-portfolios/images/lessons/1/github-user-page.png"/></tr>
+     <tr><img src="https://dannguyen.github.io/github-for-portfolios/images/lessons/1/github-user-page.png"/></tr>
+     <tr><img src="https://dannguyen.github.io/github-for-portfolios/images/lessons/1/github-user-page.png"/></tr>
+     <tr><img src="https://dannguyen.github.io/github-for-portfolios/images/lessons/1/github-user-page.png"/></tr>
+     <tr><img src="https://dannguyen.github.io/github-for-portfolios/images/lessons/1/github-user-page.png"/></tr>
+     <tr><img src="https://dannguyen.github.io/github-for-portfolios/images/lessons/1/github-user-page.png"/></tr>
+
+     </table>   
+	</body>
+</html>
+
+/*stylesheet.css*/
+
+img {
+	width:100px;
+	height:100px;
+}
+
+table, td {
+	border: 1px #70b8ff dashed;
+}
+
+/*6.Link 'em up!*/
+
+/*index.html*/
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+		<title>My Photo Page</title>
+	</head>
+	<body>
+	<table>
+    <thead>
+         <th>Header</th>
+     </thead>
+        <tr><a href="http://www.facebook.com/"><img src="http://s3.amazonaws.com/kpcbweb/companies/451/logo/grid_3/codecademy-logo-black.jpg"></a></tr>
+        <tr><a href="http://www.facebook.com/"><img src="http://s3.amazonaws.com/kpcbweb/companies/451/logo/grid_3/codecademy-logo-black.jpg"></a></tr>
+        <tr><a href="http://www.facebook.com/"><img src="http://s3.amazonaws.com/kpcbweb/companies/451/logo/grid_3/codecademy-logo-black.jpg"></a></tr>
+        <tr><a href="http://www.facebook.com/"><img src="http://s3.amazonaws.com/kpcbweb/companies/451/logo/grid_3/codecademy-logo-black.jpg"></a></tr>
+        <tr><a href="http://www.facebook.com/"><img src="http://s3.amazonaws.com/kpcbweb/companies/451/logo/grid_3/codecademy-logo-black.jpg"></a></tr>
+        <tr><a href="http://www.facebook.com/"><img src="http://s3.amazonaws.com/kpcbweb/companies/451/logo/grid_3/codecademy-logo-black.jpg"></a></tr>
+        <tr><a href="http://www.facebook.com/"><img src="http://s3.amazonaws.com/kpcbweb/companies/451/logo/grid_3/codecademy-logo-black.jpg"></a></tr>
+        <tr><a href="http://www.facebook.com/"><img src="http://s3.amazonaws.com/kpcbweb/companies/451/logo/grid_3/codecademy-logo-black.jpg"></a></tr>
+        <tr><a href="http://www.facebook.com/"><img src="http://s3.amazonaws.com/kpcbweb/companies/451/logo/grid_3/codecademy-logo-black.jpg"></a></tr>
+         </table>   
+      
+	</body>
+</html>
+
+/*stylesheet.css*/
+
+img {
+	width:100px;
+	height:100px;
+}
+
+table, td {
+	border: 1px #70b8ff dashed;
+}
+
+/*7.The sky's the limit*/
+
+/*index.html*/
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+		<title>My Photo Page</title>
+	</head>
+	<body>
+	<table>
+    <thead>
+         <th>Header</th>
+     </thead>
+        <tr><a href="http://www.facebook.com/"><img src="http://s3.amazonaws.com/kpcbweb/companies/451/logo/grid_3/codecademy-logo-black.jpg"></a></tr>
+        <tr><a href="http://www.facebook.com/"><img src="http://s3.amazonaws.com/kpcbweb/companies/451/logo/grid_3/codecademy-logo-black.jpg"></a></tr>
+        <tr><a href="http://www.facebook.com/"><img src="http://s3.amazonaws.com/kpcbweb/companies/451/logo/grid_3/codecademy-logo-black.jpg"></a></tr>
+        <tr><a href="http://www.facebook.com/"><img src="http://s3.amazonaws.com/kpcbweb/companies/451/logo/grid_3/codecademy-logo-black.jpg"></a></tr>
+        <tr><a href="http://www.facebook.com/"><img src="http://s3.amazonaws.com/kpcbweb/companies/451/logo/grid_3/codecademy-logo-black.jpg"></a></tr>
+        <tr><a href="http://www.facebook.com/"><img src="http://s3.amazonaws.com/kpcbweb/companies/451/logo/grid_3/codecademy-logo-black.jpg"></a></tr>
+        <tr><a href="http://www.facebook.com/"><img src="http://s3.amazonaws.com/kpcbweb/companies/451/logo/grid_3/codecademy-logo-black.jpg"></a></tr>
+        <tr><a href="http://www.facebook.com/"><img src="http://s3.amazonaws.com/kpcbweb/companies/451/logo/grid_3/codecademy-logo-black.jpg"></a></tr>
+        <tr><a href="http://www.facebook.com/"><img src="http://s3.amazonaws.com/kpcbweb/companies/451/logo/grid_3/codecademy-logo-black.jpg"></a></tr>
+         </table>   
+      
+	</body>
+</html>
+
+/*stylesheet.css*/
+
+img {
+	width:100px;
+	height:100px;
+}
+
+table, td {
+	border: 1px #70b8ff dashed;
+}
